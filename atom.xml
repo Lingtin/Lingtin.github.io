@@ -1,96 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://xueshengjs.com</id>
+    <id>https://lingtin.github.io</id>
     <title>🐳小咸鱼-自己的心情</title>
-    <updated>2020-08-14T09:41:04.953Z</updated>
+    <updated>2020-08-14T09:46:17.185Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://xueshengjs.com"/>
-    <link rel="self" href="https://xueshengjs.com/atom.xml"/>
+    <link rel="alternate" href="https://lingtin.github.io"/>
+    <link rel="self" href="https://lingtin.github.io/atom.xml"/>
     <subtitle> The only dream and a good girl in the world, not fail! </subtitle>
-    <logo>https://xueshengjs.com/images/avatar.png</logo>
-    <icon>https://xueshengjs.com/favicon.ico</icon>
+    <logo>https://lingtin.github.io/images/avatar.png</logo>
+    <icon>https://lingtin.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 🐳小咸鱼-自己的心情</rights>
     <entry>
         <title type="html"><![CDATA[js blob流和base64，以及file和base64的相互转换]]></title>
-        <id>https://xueshengjs.com/post/gxbNEPBuQ/</id>
-        <link href="https://xueshengjs.com/post/gxbNEPBuQ/">
+        <id>https://lingtin.github.io/post/gxbNEPBuQ/</id>
+        <link href="https://lingtin.github.io/post/gxbNEPBuQ/">
         </link>
         <updated>2020-08-14T08:02:46.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[Github 开源指南]]></title>
-        <id>https://xueshengjs.com/post/JLj-ZHO_x/</id>
-        <link href="https://xueshengjs.com/post/JLj-ZHO_x/">
+        <id>https://lingtin.github.io/post/JLj-ZHO_x/</id>
+        <link href="https://lingtin.github.io/post/JLj-ZHO_x/">
         </link>
         <updated>2020-08-04T06:14:27.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[Homebrew]]></title>
-        <id>https://xueshengjs.com/post/U18VlEloh/</id>
-        <link href="https://xueshengjs.com/post/U18VlEloh/">
+        <id>https://lingtin.github.io/post/U18VlEloh/</id>
+        <link href="https://lingtin.github.io/post/U18VlEloh/">
         </link>
         <updated>2020-07-08T09:00:40.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[Vue3源码-reactivity，effect，computed原理解析实现]]></title>
-        <id>https://xueshengjs.com/post/vue3-0/</id>
-        <link href="https://xueshengjs.com/post/vue3-0/">
+        <id>https://lingtin.github.io/post/vue3-0/</id>
+        <link href="https://lingtin.github.io/post/vue3-0/">
         </link>
         <updated>2020-07-08T07:30:29.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[v2ray客户端使用]]></title>
-        <id>https://xueshengjs.com/post/BXJ8qKOnd/</id>
-        <link href="https://xueshengjs.com/post/BXJ8qKOnd/">
+        <id>https://lingtin.github.io/post/BXJ8qKOnd/</id>
+        <link href="https://lingtin.github.io/post/BXJ8qKOnd/">
         </link>
         <updated>2020-06-24T06:19:04.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[mysql学习速查记录]]></title>
-        <id>https://xueshengjs.com/post/vcWhiwwan/</id>
-        <link href="https://xueshengjs.com/post/vcWhiwwan/">
+        <id>https://lingtin.github.io/post/vcWhiwwan/</id>
+        <link href="https://lingtin.github.io/post/vcWhiwwan/">
         </link>
         <updated>2020-03-11T05:22:08.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[快速上手mongodb基本操作]]></title>
-        <id>https://xueshengjs.com/post/bdBaNcARw/</id>
-        <link href="https://xueshengjs.com/post/bdBaNcARw/">
+        <id>https://lingtin.github.io/post/bdBaNcARw/</id>
+        <link href="https://lingtin.github.io/post/bdBaNcARw/">
         </link>
         <updated>2020-03-09T04:09:00.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[Linux 上安装 MongoDB]]></title>
-        <id>https://xueshengjs.com/post/AhnTaALpE/</id>
-        <link href="https://xueshengjs.com/post/AhnTaALpE/">
+        <id>https://lingtin.github.io/post/AhnTaALpE/</id>
+        <link href="https://lingtin.github.io/post/AhnTaALpE/">
         </link>
         <updated>2020-03-09T04:02:04.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[Mysql  ERROR 1045 (28000): Unknown error 1045]]></title>
-        <id>https://xueshengjs.com/post/Icz0c1eH6/</id>
-        <link href="https://xueshengjs.com/post/Icz0c1eH6/">
+        <id>https://lingtin.github.io/post/Icz0c1eH6/</id>
+        <link href="https://lingtin.github.io/post/Icz0c1eH6/">
         </link>
         <updated>2020-01-14T06:38:31.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[最好用的orm·typeorm(入门，实体)（typeorm/mysql）]]></title>
-        <id>https://xueshengjs.com/post/typeorm0/</id>
-        <link href="https://xueshengjs.com/post/typeorm0/">
+        <id>https://lingtin.github.io/post/typeorm0/</id>
+        <link href="https://lingtin.github.io/post/typeorm0/">
         </link>
         <updated>2020-01-10T02:43:09.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[前端工程项目启动介绍]]></title>
-        <id>https://xueshengjs.com/post/IpEKe9S/</id>
-        <link href="https://xueshengjs.com/post/IpEKe9S/">
+        <id>https://lingtin.github.io/post/IpEKe9S/</id>
+        <link href="https://lingtin.github.io/post/IpEKe9S/">
         </link>
         <updated>2019-12-24T08:16:14.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[nestJs 介绍及安装 cli]]></title>
-        <id>https://xueshengjs.com/post/nest01/</id>
-        <link href="https://xueshengjs.com/post/nest01/">
+        <id>https://lingtin.github.io/post/nest01/</id>
+        <link href="https://lingtin.github.io/post/nest01/">
         </link>
         <updated>2019-12-24T06:24:37.000Z</updated>
     </entry>
