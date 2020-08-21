@@ -14,7 +14,7 @@
 <meta name="description" content="The only dream and a good girl in the world, not fail! ">
 <meta name="keywords" content="My own mood">
 <script async src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
-<link rel="stylesheet" href="https://lingtin.github.io/styles/main.css" />
+<link rel="stylesheet" href="https://xueshengjs.com/styles/main.css" />
 <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <script type="text/javascript" src="https://apps.bdimg.com/libs/jquery/1.7.1/jquery.min.js"></script>
 
@@ -71,7 +71,7 @@
     <nav class="navbar">
         <div class="container">
             <div class="navbar-header header-logo">
-                <a href="https://lingtin.github.io">
+                <a href="https://xueshengjs.com">
                     🐳小咸鱼-自己的心情
                 </a>
             </div>
@@ -105,7 +105,7 @@
                         <input id="switch_default" type="checkbox" class="switch_default">
                         <label for="switch_default" class="toggleBtn"></label>
             </div>
-            <form id="gridea-search-form" data-update="1597977814576" action="/search/index.html">
+            <form id="gridea-search-form" data-update="1597978053921" action="/search/index.html">
                 <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
             </form>
         </div>
@@ -116,7 +116,7 @@
             <div class="container">
                 <div class="navbar-header">
                     <div>
-                        <a href="https://lingtin.github.io">
+                        <a href="https://xueshengjs.com">
                             🐳小咸鱼-自己的心情
                         </a>
                         <!--en-->
@@ -124,7 +124,7 @@
                         <!--zh-->
                         <a id="mobile-toggle-theme-zh" class="a zh">&nbsp;&#x6697;&#x9ED1;</a>
                     </div>
-                    <form id="gridea-search-form" data-update="1597977814576" action="/search/index.html">
+                    <form id="gridea-search-form" data-update="1597978053921" action="/search/index.html">
                         <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
                     </form>
                     <!--en-->
@@ -248,11 +248,11 @@
                                         
                                             <span class="post-category">&#x5206;&#x7C7B;:
                                 
-                                <a href="https://lingtin.github.io/tag/ne7eEEx-e/">库</a>
+                                <a href="https://xueshengjs.com/tag/ne7eEEx-e/">库</a>
                                 
-                                <a href="https://lingtin.github.io/tag/P1n4rGlyH/">其它</a>
+                                <a href="https://xueshengjs.com/tag/P1n4rGlyH/">其它</a>
                                 
-                                <a href="https://lingtin.github.io/tag/2PLgaq7l7/">nodejs</a>
+                                <a href="https://xueshengjs.com/tag/2PLgaq7l7/">nodejs</a>
                                 
                             </span>
                                             
@@ -263,7 +263,7 @@
                                     
                         </header>
                         
-                            <img class="post-feature-image" src="https://lingtin.github.io/post-images/dMvRzXo3O.jpeg" alt="">
+                            <img class="post-feature-image" src="https://xueshengjs.com/post-images/dMvRzXo3O.jpeg" alt="">
                           
                         <div class="post-content">
                             <p>使用nodejs编写cli(命令行)<br>
@@ -320,7 +320,7 @@ console.log('hello world')
 <p>bin字段里面写上这个命令行的名字，也就是hello-cli，它告诉npm，里面的js脚本可以通过命令行的方式执行，以hello-cli的命令调用。当然命令行的名字你想写什么都是你的自由。</p>
 <p>在当前package.json目录下，打开命令行工具，执行npm link，将当前的代码在npm全局目录下留个快捷方式。</p>
 <p>npm检测到package.json里面存在一个bin字段，它就同时在全局npm包目录下生成了一个可执行文件：</p>
-<figure data-type="image" tabindex="1"><img src="https://lingtin.github.io/post-images/1562637729156.webp" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="1"><img src="https://xueshengjs.com/post-images/1562637729156.webp" alt="" loading="lazy"></figure>
 <p>当我们在系统命令行直接执行hello-cli的时候，实际上就是执行这里的脚本。<br>
 因为安装node的时候，npm将这个目录配置为系统变量环境了，当你执行命令的时候，系统会先找系统命令和系统变量，然后到变量环境里面去查找这个命令名，然后找到这个目录后，发现匹配上了该命令名的可执行文件，接着就直接执行它。vue-cli也好，webpack-cli也好，都是这样执行的。</p>
 <p>这样，你的第一个cli脚本就成功安装了，可以在命令行里面，直接敲你的cli名字，看看结果输出吧。</p>
@@ -329,7 +329,7 @@ console.log('hello world')
 <p>局部安装建议用<code>npm i -D file:xxx</code>，这样它会在package.json留条记录，方便其他小伙伴看到。自然，你的脚本最好也是放进项目目录里面。</p>
 </blockquote>
 <p>当然，这样安装的cli脚本，必须在项目的<code>package.json</code>的scripts字段上声明脚本命令，然后通过npm run的方式执行</p>
-<figure data-type="image" tabindex="2"><img src="https://lingtin.github.io/post-images/1562637817030.webp" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://xueshengjs.com/post-images/1562637817030.webp" alt="" loading="lazy"></figure>
 <p>哦？这样子使用的话不就回到最最最开始的时候那种原始的<code>npm run hello</code>一样么。</p>
 <p>是的，但是有质的区别。使用node index.js这种方式调用的话固然简单灵活，但是严重依赖脚本路径，一旦目录结构发生变动，写在scripts的命令就要更改一次；但是使用npm安装之后，本地的cli脚本就被拉到node_modules里面，目录结构变动对其影响不大。其次是不利于分享与发布，如果你想把你的cli脚本发布出去，那么有一个好听响亮的名字，比起在说明文档里面告诉使用者如何找到你的脚本路径再用node执行它，简直好上那么一万倍不是么？</p>
 <p>这里也给我们提供了一个cli开发流程思路：</p>
@@ -374,7 +374,7 @@ let subProcess=child_process.exec(&quot;git version&quot;,function(err,stdout){
 </blockquote>
 <h2 id="0x5-美化输出">0x5 美化输出</h2>
 <p>如果你不那么希望你的cli用起来那么“硬核”，希望更人性化一点，比如提供一些友好的输入、提示啊，给你的输出加点颜色区分重点啊，写个简单的进度条啊等等，那么你就需要美化一下你的输出了。</p>
-<figure data-type="image" tabindex="3"><img src="https://lingtin.github.io/post-images/1562638077936.webp" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="3"><img src="https://xueshengjs.com/post-images/1562638077936.webp" alt="" loading="lazy"></figure>
 <p>除了颜色这部分，不使用第三方包实现起来非常繁琐复杂，其他的功能，都可以试试自己写。<br>
 颜色部分使用了第三方包colors，这里就不演示了。</p>
 <p>其他都是由nodejs自带的readline模块实现的。</p>
@@ -461,7 +461,7 @@ https://github.com/shelljs/shelljs</p>
 
                                                 <p class="copyright-item">
                                                     <span>&#x6C38;&#x4E45;&#x94FE;&#x63A5;:</span>
-                                                    <span><a href="https://lingtin.github.io/post/dMvRzXo3O/">https://lingtin.github.io/post/dMvRzXo3O/</a></span>
+                                                    <span><a href="https://xueshengjs.com/post/dMvRzXo3O/">https://xueshengjs.com/post/dMvRzXo3O/</a></span>
                                                 </p>
 
                                                 <p class="copyright-item">
@@ -476,9 +476,9 @@ https://github.com/shelljs/shelljs</p>
                                                                     <span style="margin-right:15px">
                         <i class="post-share"></i>
                         <span>&#x5206;&#x4EAB;:</span>
-                                                                    <a title="QR 码" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://lingtin.github.io/post/dMvRzXo3O/"><i class="fa fa-qrcode"></i></a>
-                                                                    <a title="QQ" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://lingtin.github.io/post/dMvRzXo3O/&sharesource=qzone&title=使用nodejs编写cli(命令行)&pics=https://lingtin.github.io/images/avatar.png?v=1597977814576&summary="><i class="fa fa-qq"></i></a>
-                                                                    <a title="新浪微博" target="_blank" href="https://service.weibo.com/share/share.php?url=https://lingtin.github.io/post/dMvRzXo3O/&sharesource=weibo&title=使用nodejs编写cli(命令行) + " - " + &pic="https://lingtin.github.io/images/avatar.png?v=1597977814576 "><i class="fa fa-weibo "></i></a>
+                                                                    <a title="QR 码" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://xueshengjs.com/post/dMvRzXo3O/"><i class="fa fa-qrcode"></i></a>
+                                                                    <a title="QQ" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://xueshengjs.com/post/dMvRzXo3O/&sharesource=qzone&title=使用nodejs编写cli(命令行)&pics=https://xueshengjs.com/images/avatar.png?v=1597978053921&summary="><i class="fa fa-qq"></i></a>
+                                                                    <a title="新浪微博" target="_blank" href="https://service.weibo.com/share/share.php?url=https://xueshengjs.com/post/dMvRzXo3O/&sharesource=weibo&title=使用nodejs编写cli(命令行) + " - " + &pic="https://xueshengjs.com/images/avatar.png?v=1597978053921 "><i class="fa fa-weibo "></i></a>
 
                                                                     </span>
                                                                     
@@ -489,15 +489,15 @@ https://github.com/shelljs/shelljs</p>
                                                                                     <span class="tag ">
                         
                         
-                        <a href="https://lingtin.github.io/tag/ne7eEEx-e/">#
+                        <a href="https://xueshengjs.com/tag/ne7eEEx-e/">#
                     库
                         </a>
                         
-                        <a href="https://lingtin.github.io/tag/P1n4rGlyH/">#
+                        <a href="https://xueshengjs.com/tag/P1n4rGlyH/">#
                     其它
                         </a>
                         
-                        <a href="https://lingtin.github.io/tag/2PLgaq7l7/">#
+                        <a href="https://xueshengjs.com/tag/2PLgaq7l7/">#
                     nodejs
                         </a>
                         
@@ -516,12 +516,12 @@ https://github.com/shelljs/shelljs</p>
                                                                                 <!---->
                                                                                 <section class="post-nav">
                                                                                     
-                                                                                        <a class="prev" rel="prev" href="https://lingtin.github.io/post/concurrently01/">
+                                                                                        <a class="prev" rel="prev" href="https://xueshengjs.com/post/concurrently01/">
                                                                                             CMD同时运行多个服务
                                                                                         </a>
                                                                                         
                                                                                             
-                                                                                                <a class="next" rel="next" href="https://lingtin.github.io/post/SAWHkI2RW/">
+                                                                                                <a class="next" rel="next" href="https://xueshengjs.com/post/SAWHkI2RW/">
                                                                                                     PowerShell因为在此系统中禁止执行脚本解决方法
                                                                                                 </a>
                                                                                                 
@@ -633,7 +633,7 @@ https://github.com/shelljs/shelljs</p>
                     console.clear();
                     
                     var newDate = new Date();
-                    newDate.setTime(1597977814576);
+                    newDate.setTime(1597978053921);
                     console.log(" Blog Update Time: " + newDate.toLocaleDateString());
                     console.log("\n %c \u26a1Theme:Chic Author's Blog:https://blog.itjoker.cn  Write By ITJoker  \n\n", "color: #ffffff; background: rgba(49, 49, 49, 0.85); padding:5px 0;border-radius:5px;");
                 </script>

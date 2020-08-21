@@ -14,7 +14,7 @@
 <meta name="description" content="The only dream and a good girl in the world, not fail! ">
 <meta name="keywords" content="My own mood">
 <script async src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
-<link rel="stylesheet" href="https://lingtin.github.io/styles/main.css" />
+<link rel="stylesheet" href="https://xueshengjs.com/styles/main.css" />
 <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <script type="text/javascript" src="https://apps.bdimg.com/libs/jquery/1.7.1/jquery.min.js"></script>
 
@@ -71,7 +71,7 @@
     <nav class="navbar">
         <div class="container">
             <div class="navbar-header header-logo">
-                <a href="https://lingtin.github.io">
+                <a href="https://xueshengjs.com">
                     🐳小咸鱼-自己的心情
                 </a>
             </div>
@@ -105,7 +105,7 @@
                         <input id="switch_default" type="checkbox" class="switch_default">
                         <label for="switch_default" class="toggleBtn"></label>
             </div>
-            <form id="gridea-search-form" data-update="1597977814576" action="/search/index.html">
+            <form id="gridea-search-form" data-update="1597978053921" action="/search/index.html">
                 <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
             </form>
         </div>
@@ -116,7 +116,7 @@
             <div class="container">
                 <div class="navbar-header">
                     <div>
-                        <a href="https://lingtin.github.io">
+                        <a href="https://xueshengjs.com">
                             🐳小咸鱼-自己的心情
                         </a>
                         <!--en-->
@@ -124,7 +124,7 @@
                         <!--zh-->
                         <a id="mobile-toggle-theme-zh" class="a zh">&nbsp;&#x6697;&#x9ED1;</a>
                     </div>
-                    <form id="gridea-search-form" data-update="1597977814576" action="/search/index.html">
+                    <form id="gridea-search-form" data-update="1597978053921" action="/search/index.html">
                         <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
                     </form>
                     <!--en-->
@@ -248,9 +248,9 @@
                                         
                                             <span class="post-category">&#x5206;&#x7C7B;:
                                 
-                                <a href="https://lingtin.github.io/tag/javascript/">javascript</a>
+                                <a href="https://xueshengjs.com/tag/javascript/">javascript</a>
                                 
-                                <a href="https://lingtin.github.io/tag/P1n4rGlyH/">其它</a>
+                                <a href="https://xueshengjs.com/tag/P1n4rGlyH/">其它</a>
                                 
                             </span>
                                             
@@ -261,7 +261,7 @@
                                     
                         </header>
                         
-                            <img class="post-feature-image" src="https://lingtin.github.io/post-images/gdCbgzQi.jpg" alt="">
+                            <img class="post-feature-image" src="https://xueshengjs.com/post-images/gdCbgzQi.jpg" alt="">
                           
                         <div class="post-content">
                             <p>H5页面前端开发，大多数人都会遇到的几个兼容性坑<br>
@@ -272,7 +272,7 @@
 <p>所以下文涉及图片都模糊处理了。</p>
 <h4 id="1-ios端兼容input光标高度">1、ios端兼容input光标高度</h4>
 <p>问题详情描述：input输入框光标，在安卓手机上显示没有问题，但是在苹果手机上当点击输入的时候，光标的高度和父盒子的高度一样。例如下图，左图是正常所期待的输入框光标，右边是ios的input光标。</p>
-<figure data-type="image" tabindex="1"><img src="https://lingtin.github.io/post-images/1567497580817.webp" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="1"><img src="https://xueshengjs.com/post-images/1567497580817.webp" alt="" loading="lazy"></figure>
 <p>出现原因分析：通常我们习惯用height属性设置行间的高度和line-height属性设置行间的距离（行高），当点击输入的时候，光标的高度就自动和父盒子的高度一样了。（谷歌浏览器的设计原则，还有一种可能就是当没有内容的时候光标的高度等于input的line-height的值，当有内容时，光标从input的顶端到文字的底部</p>
 <p>解决办法：高度height和行高line-height内容用padding撑开</p>
 <p>例如：</p>
@@ -294,7 +294,7 @@
 </code></pre>
 <h4 id="2-ios端微信h5页面上下滑动时卡顿-页面缺失">2、ios端微信h5页面上下滑动时卡顿、页面缺失</h4>
 <p>问题详情描述：在ios端，上下滑动页面时，如果页面高度超出了一屏，就会出现明显的卡顿，页面有部分内容显示不全的情况，例如下图，右图是正常页面，边是ios上下滑动后，卡顿导致如左图下面部分丢失。</p>
-<figure data-type="image" tabindex="2"><img src="https://lingtin.github.io/post-images/1567497657131.webp" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://xueshengjs.com/post-images/1567497657131.webp" alt="" loading="lazy"></figure>
 <p>出现原因分析：</p>
 <p>笼统说微信浏览器的内核，Android上面是使用自带的WebKit内核，iOS里面由于苹果的原因，使用了自带的Safari内核，Safari对于overflow-scrolling用了原生控件来实现。对于有-webkit-overflow-scrolling的网页，会创建一个UIScrollView，提供子layer给渲染模块使用。【有待考证】</p>
 <p>解决办法：只需要在公共样式加入下面这行代码</p>
@@ -342,7 +342,7 @@ touch: 使用具有回弹效果的滚动, 当手指从触摸屏上移开，内�
 <h4 id="4-安卓弹出的键盘遮盖文本框">4、安卓弹出的键盘遮盖文本框</h4>
 <p>问题详情描述：</p>
 <p>安卓微信H5弹出软键盘后挡住input输入框，如下左图是期待唤起键盘的时候样子，右边是实际唤起键盘的样子</p>
-<figure data-type="image" tabindex="3"><img src="https://lingtin.github.io/post-images/1567497776010.webp" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="3"><img src="https://xueshengjs.com/post-images/1567497776010.webp" alt="" loading="lazy"></figure>
 <p>出现原因分析：待补充</p>
 <p>解决办法：给input和textarea标签添加focus事件，如下，先判断是不是安卓手机下的操作，当然，可以不用判断机型，Document 对象属性和方法，setTimeout延时0.5秒，因为调用安卓键盘有一点迟钝，导致如果不延时处理的话，滚动就失效了</p>
 <pre><code>changefocus(){
@@ -363,7 +363,7 @@ touch: 使用具有回弹效果的滚动, 当手指从触摸屏上移开，内�
 <h4 id="5-vue中路由使用hash模式开发微信h5页面分享时在安卓上设置分享成功但是ios的分享异常">5、Vue中路由使用hash模式，开发微信H5页面分享时在安卓上设置分享成功，但是ios的分享异常</h4>
 <p>问题详情描述：</p>
 <p>ios当前页面分享给好友，点击进来是正常，如果二次分享，则跳转到首页；使用vue router跳转到第二个页面后在分享时，分享设置失败；以上安卓分享都是正常</p>
-<figure data-type="image" tabindex="4"><img src="https://lingtin.github.io/post-images/1567497848316.webp" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="4"><img src="https://xueshengjs.com/post-images/1567497848316.webp" alt="" loading="lazy"></figure>
 <p>出现原因分析：jssdk是后端进行签署，前端校验，但是有时跨域，ios是分享以后会自动带上 from=singlemessage&amp;isappinstalled=0 以及其他参数，分享朋友圈参数还不一样，貌似系统不一样参数也不一样，但是每次获取url并不能获取后面这些参数</p>
 <p>解决办法：</p>
 <p>（1）可以使用改页面this.$router.push跳转，为window.location.href去跳转，而不使用路由跳转，这样可以使地址栏的地址与当前页的地址一样，可以分享成功（适合分享的页面不多的情况下，作为一个单单页运用，这样刷新页面跳转，还是..）</p>
@@ -405,7 +405,7 @@ touch: 使用具有回弹效果的滚动, 当手指从触摸屏上移开，内�
 
                                                 <p class="copyright-item">
                                                     <span>&#x6C38;&#x4E45;&#x94FE;&#x63A5;:</span>
-                                                    <span><a href="https://lingtin.github.io/post/gdCbgzQi/">https://lingtin.github.io/post/gdCbgzQi/</a></span>
+                                                    <span><a href="https://xueshengjs.com/post/gdCbgzQi/">https://xueshengjs.com/post/gdCbgzQi/</a></span>
                                                 </p>
 
                                                 <p class="copyright-item">
@@ -420,9 +420,9 @@ touch: 使用具有回弹效果的滚动, 当手指从触摸屏上移开，内�
                                                                     <span style="margin-right:15px">
                         <i class="post-share"></i>
                         <span>&#x5206;&#x4EAB;:</span>
-                                                                    <a title="QR 码" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://lingtin.github.io/post/gdCbgzQi/"><i class="fa fa-qrcode"></i></a>
-                                                                    <a title="QQ" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://lingtin.github.io/post/gdCbgzQi/&sharesource=qzone&title=H5页面前端开发，大多数人都会遇到的几个兼容性坑&pics=https://lingtin.github.io/images/avatar.png?v=1597977814576&summary="><i class="fa fa-qq"></i></a>
-                                                                    <a title="新浪微博" target="_blank" href="https://service.weibo.com/share/share.php?url=https://lingtin.github.io/post/gdCbgzQi/&sharesource=weibo&title=H5页面前端开发，大多数人都会遇到的几个兼容性坑 + " - " + &pic="https://lingtin.github.io/images/avatar.png?v=1597977814576 "><i class="fa fa-weibo "></i></a>
+                                                                    <a title="QR 码" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://xueshengjs.com/post/gdCbgzQi/"><i class="fa fa-qrcode"></i></a>
+                                                                    <a title="QQ" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://xueshengjs.com/post/gdCbgzQi/&sharesource=qzone&title=H5页面前端开发，大多数人都会遇到的几个兼容性坑&pics=https://xueshengjs.com/images/avatar.png?v=1597978053921&summary="><i class="fa fa-qq"></i></a>
+                                                                    <a title="新浪微博" target="_blank" href="https://service.weibo.com/share/share.php?url=https://xueshengjs.com/post/gdCbgzQi/&sharesource=weibo&title=H5页面前端开发，大多数人都会遇到的几个兼容性坑 + " - " + &pic="https://xueshengjs.com/images/avatar.png?v=1597978053921 "><i class="fa fa-weibo "></i></a>
 
                                                                     </span>
                                                                     
@@ -433,11 +433,11 @@ touch: 使用具有回弹效果的滚动, 当手指从触摸屏上移开，内�
                                                                                     <span class="tag ">
                         
                         
-                        <a href="https://lingtin.github.io/tag/javascript/">#
+                        <a href="https://xueshengjs.com/tag/javascript/">#
                     javascript
                         </a>
                         
-                        <a href="https://lingtin.github.io/tag/P1n4rGlyH/">#
+                        <a href="https://xueshengjs.com/tag/P1n4rGlyH/">#
                     其它
                         </a>
                         
@@ -456,12 +456,12 @@ touch: 使用具有回弹效果的滚动, 当手指从触摸屏上移开，内�
                                                                                 <!---->
                                                                                 <section class="post-nav">
                                                                                     
-                                                                                        <a class="prev" rel="prev" href="https://lingtin.github.io/post/WMjMr42Ik/">
+                                                                                        <a class="prev" rel="prev" href="https://xueshengjs.com/post/WMjMr42Ik/">
                                                                                             CSS实现单行、多行文本溢出显示省略号（…）
                                                                                         </a>
                                                                                         
                                                                                             
-                                                                                                <a class="next" rel="next" href="https://lingtin.github.io/post/dV9qteBys/">
+                                                                                                <a class="next" rel="next" href="https://xueshengjs.com/post/dV9qteBys/">
                                                                                                     bignumber.js使用记录
                                                                                                 </a>
                                                                                                 
@@ -573,7 +573,7 @@ touch: 使用具有回弹效果的滚动, 当手指从触摸屏上移开，内�
                     console.clear();
                     
                     var newDate = new Date();
-                    newDate.setTime(1597977814576);
+                    newDate.setTime(1597978053921);
                     console.log(" Blog Update Time: " + newDate.toLocaleDateString());
                     console.log("\n %c \u26a1Theme:Chic Author's Blog:https://blog.itjoker.cn  Write By ITJoker  \n\n", "color: #ffffff; background: rgba(49, 49, 49, 0.85); padding:5px 0;border-radius:5px;");
                 </script>
