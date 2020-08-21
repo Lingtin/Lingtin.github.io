@@ -336,9 +336,10 @@
   color: #424242;
   border-bottom: 1px solid #beb1b1;
   transition: border-color 0.2s;
-}
-.search-input:hover {
-  width: 180px;
+  /*
+  &:hover {
+    width: 180px;
+  }*/
 }
 .search-input .dark-theme {
   color: #fafafa;
@@ -497,6 +498,27 @@
   overflow: hidden;
   line-height: 24px;
 }
+/*Center post header*/
+.post-header {
+  text-align: center;
+}
+/*Post feature image*/
+.post-feature-image {
+  display: block;
+  width: 100%;
+  padding-top: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  transition: all 0.3s;
+}
+.post-feature-image img {
+  width: 100%;
+}
+.post-feature-image:hover {
+  transform: scale(1.0082);
+}
 /*Toc*/
 .post-toc .markdownIt-TOC {
   position: sticky;
@@ -560,6 +582,10 @@
   border-radius: 5px;
   font-size: larger;
   background: #ffffff33;
+}
+.intro .avatar img {
+  width: 128px;
+  height: 128px;
 }
 @media screen and (max-width: 780px) {
   .Like {
