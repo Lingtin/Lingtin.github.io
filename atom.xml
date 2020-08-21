@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://xueshengjs.com</id>
-    <title>🐳小咸鱼-自己的心情</title>
-    <updated>2020-08-21T02:47:35.600Z</updated>
+    <title>🐳  小咸鱼-自己的心情</title>
+    <updated>2020-08-21T03:08:20.262Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://xueshengjs.com"/>
     <link rel="self" href="https://xueshengjs.com/atom.xml"/>
     <subtitle> The only dream and a good girl in the world, not fail! </subtitle>
     <logo>https://xueshengjs.com/images/avatar.png</logo>
     <icon>https://xueshengjs.com/favicon.ico</icon>
-    <rights>All rights reserved 2020, 🐳小咸鱼-自己的心情</rights>
+    <rights>All rights reserved 2020, 🐳  小咸鱼-自己的心情</rights>
     <entry>
         <title type="html"><![CDATA[js blob流和base64，以及file和base64的相互转换]]></title>
         <id>https://xueshengjs.com/post/gxbNEPBuQ/</id>
@@ -51,47 +51,5 @@
         <link href="https://xueshengjs.com/post/vcWhiwwan/">
         </link>
         <updated>2020-03-11T05:22:08.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[快速上手mongodb基本操作]]></title>
-        <id>https://xueshengjs.com/post/bdBaNcARw/</id>
-        <link href="https://xueshengjs.com/post/bdBaNcARw/">
-        </link>
-        <updated>2020-03-09T04:09:00.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 上安装 MongoDB]]></title>
-        <id>https://xueshengjs.com/post/AhnTaALpE/</id>
-        <link href="https://xueshengjs.com/post/AhnTaALpE/">
-        </link>
-        <updated>2020-03-09T04:02:04.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mysql  ERROR 1045 (28000): Unknown error 1045]]></title>
-        <id>https://xueshengjs.com/post/Icz0c1eH6/</id>
-        <link href="https://xueshengjs.com/post/Icz0c1eH6/">
-        </link>
-        <updated>2020-01-14T06:38:31.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[最好用的orm·typeorm(入门，实体)（typeorm/mysql）]]></title>
-        <id>https://xueshengjs.com/post/typeorm0/</id>
-        <link href="https://xueshengjs.com/post/typeorm0/">
-        </link>
-        <updated>2020-01-10T02:43:09.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[前端工程项目启动介绍]]></title>
-        <id>https://xueshengjs.com/post/IpEKe9S/</id>
-        <link href="https://xueshengjs.com/post/IpEKe9S/">
-        </link>
-        <updated>2019-12-24T08:16:14.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[nestJs 介绍及安装 cli]]></title>
-        <id>https://xueshengjs.com/post/nest01/</id>
-        <link href="https://xueshengjs.com/post/nest01/">
-        </link>
-        <updated>2019-12-24T06:24:37.000Z</updated>
     </entry>
 </feed>
